@@ -7,7 +7,10 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Shape shapeCircle = new Circle();
+        shapeCircle.draw();
 
+    /*
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
         System.out.println("Enter username");
         String userName = myObj.nextLine();  // Read user input
@@ -32,6 +35,8 @@ public class Main {
             System.out.println("Username is: " + userName);  // Output user input
             System.out.println("Selected number of month is: " + month + " which the " + stringMonth);  // Output user input
         }
+        */
+
     }
 }
 

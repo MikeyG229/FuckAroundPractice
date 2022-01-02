@@ -74,6 +74,24 @@ public class MainTest {
         assertEquals(expectedMonth,actualMonth );
     }
 
+    @Test
+
+    public void abstractCircleTest(){
+        Shape shapeCircle = new Circle();
+        shapeCircle.draw();
+        String actual = shapeCircle.speak();
+        String expected = "I'm a circle bitch!";
+        assertEquals(expected,actual );
+    }
+
+    @Test
+    public void abstractSquareTest(){
+        Shape shapeSquare = new Square();
+        shapeSquare.draw();
+        String actual = shapeSquare.speak();
+        String expected = "I'm a square bitch!";
+        assertEquals(expected,actual );
+    }
 
 
 }
